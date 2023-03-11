@@ -136,13 +136,23 @@ html {
     background-color: white;
   }
   
-  .calculator_display {
+  .display {
+    display: flex;
+    justify-content: flex-end;
     background-color: #222222;
-    color: #fff;
-    font-size: 1.714285714em;
     padding: 0.5em 0.75em;
-    text-align: right;
     margin: 10px;
+    border-radius: 2px;
+    height: 120px;
+  }
+
+  .calculator form .display input {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    text-align: right;
+    font-size: 50px;
+    cursor: pointer;
   }
   
   .calculator_keys {
