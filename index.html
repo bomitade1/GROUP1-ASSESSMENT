@@ -10,10 +10,11 @@
     <body>
         <div class="calculator">
             <form>
+                <!--this is the display screen-->
                 <div class="display">
                     <input type="text" name="display" disabled>
                 </div>
-
+<!-- this section deals with the button operations with javaScirpt embedded in it-->
                 <div class="calculator_keys">
                     <input type="button" class="key-clear" value="AC" onclick="display.value = '' ">
                     <input type="button" class="key-operator" value="%" onclick="display.value = (display.value / 100) ">
